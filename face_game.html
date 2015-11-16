@@ -4,52 +4,61 @@
 <link rel="stylesheet" type="text/css" href="face_game.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<!--Google Fonts for CSS-->
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Sigmar+One|Signika' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="face_game.css">
   <title>Faces</title>
 </head>
 <body>
   <div class="list-group col-md-12">
       <div class="list-group-item">
-         <p>Wanna play a game?</p>
+         <h1>Wanna play a game?</h1>
       </div>
   </div>
+  <!-- Explain the purpose of the game -->
+  <p>You have 20 seconds to click as many faces as possible. Each face will only account for 1 click: (Regardless of the amount of clicks you do per face.) Have Fun!</p>
+
+  <!-- Start Button -->
+  <button type="button" class="btn btn-success" id="toggleBtn">START</button>
+<br>
 <!--Faces 1-4-->
-  <div class="row">
-      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/daniel_petro_face.png"> Daniel Petro</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Steven Buller</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Sean Conaty</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Rolando Cosme</div>
+  <div class="row" >
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/daniel.png" class="friends"> Daniel Petro</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/steve.png" class="friends"> Steven Buller</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/sean1.png" class="friends"> Sean Conaty</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/rolando.png" class="friends"> Rolando Cosme</div>
     </div>  
     <!--Faces 5-8-->
     <div class="row">
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Valdrin Dauti</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Michael Diaz</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Christopher Donofrio</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Christian Eckenrode</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/valdrin.png" class="friends"> Valdrin Dauti</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/mike.png" class="friends"> Michael Diaz</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/christopher.png" class="friends"> Christopher Donofrio</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/christian.png" class="friends"> Christian Eckenrode</div>
     </div>  
     <!--Faces 9-12-->
     <div class="row">
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Richenda Gould</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> John-Alender Hall</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Jean Carlos Henriquez</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Dong Hoon Kim</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/richenda.png" class="friends"> Richenda Gould</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/wolfgang.png" class="friends"> Wolfgang Hall</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/tammer.png" class="friends">Tammer G</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/dong.png" class="friends"> Dong Hoon Kim</div>
     </div>  
     <!--Faces 13-16-->
     <div class="row">
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Jameson Jackson</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Alejandra Jurado</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Darryl Mendonez</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Richard Mensah</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/jameson.png" class="friends"> Jameson Jackson</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/shreyans.png" class="friends"> Shreyans Patel</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/darryl.png" class="friends"> Darryl Mendonez</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/richard.png" class="friends"> Richard Mensah</div>
     </div>  
     <!--Faces 17-20-->
     <div class="row">
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Jeremy Miragliotta</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Christopher Moate</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> James Mona</div>
-      <div class="col-md-3"><img src="http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson13.gif"> Matt Parman</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/jeremy.png" class="friends"> Jeremy Miragliotta</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/cbmoate.png" class="friends"> Christopher Moate</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/james.png" class="friends"> James Mona</div>
+      <div class="col-md-3"><img src="/Users/DanielPetro/RCB/javascript/face_game/img/jill.png" class="friends"> Jill Talamo</div>
     </div>  
 
 
-  <script type="text/javascript" src="js/home.js"> </script>   
+  <script type="text/javascript" src="js/home.js"> </script> 
+  <script type="text/javascript" src="js/start.js"> </script>   
 </body>
 </html>
