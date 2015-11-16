@@ -18,7 +18,6 @@ button {
   padding:100px;
   margin: 1px;
   margin-left: 550px;
-  font-family: "indie flower";
 }
 
 div {
@@ -34,6 +33,33 @@ img {
   border-radius: 50%
 }
 
+.click-counter {
+  position: static;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border:3px solid;
+  color: black;
+  border-color: black;
+  background-color:white;
+  left:10px;
+}
+
+p {
+  font-family: "indie flower";
+}
+
+.clicker-box {
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border:2px solid;
+  color: black;
+  border-color: black;
+  background-color:white;
+}
+
 .row {
   margin: 20px;
 }
@@ -44,4 +70,3 @@ img {
     color: white;
     background-color: black;
     font-family: "signika";
-

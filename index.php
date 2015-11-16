@@ -1,0 +1,1 @@
+<?php require('face_game.html');?>
